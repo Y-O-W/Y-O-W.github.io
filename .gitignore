@@ -1,0 +1,4 @@
+# intermediate render output (index.html is the served copy)
+yw_cv_full-stack-developer.html
+__pycache__/
+.venv/

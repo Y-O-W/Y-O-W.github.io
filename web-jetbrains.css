@@ -1,0 +1,62 @@
+/* web-jetbrains.css — YOWfactor-branded monospace HTML CV.
+   Navy Teal #255968 ground, Dutch #FF552E accent. Fonts base64-inlined at render. */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('fonts/jetbrains-mono-latin-400-normal.woff2') format('woff2');
+  font-weight: 400; font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('fonts/jetbrains-mono-latin-400-italic.woff2') format('woff2');
+  font-weight: 400; font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('fonts/jetbrains-mono-latin-700-normal.woff2') format('woff2');
+  font-weight: 700; font-style: normal;
+}
+
+:root {
+  --bg: #1B3A45;        /* deep Navy Teal (darker than #255968 for contrast) */
+  --bg-rule: #255968;   /* Navy Teal — section rules */
+  --fg: #F5F5F5;        /* Silver — body text */
+  --muted: #96AAAF;     /* Navy Teal 400 — muted */
+  --accent: #FF552E;    /* Dutch — links, headings */
+  --accent-soft: #FF8E74; /* Dutch 300 — hover/secondary accent */
+  --strong: #FFFFFF;    /* White */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px; line-height: 1.6;
+  color: var(--fg); background: var(--bg);
+  max-width: 820px; margin: 0 auto; padding: 48px 32px;
+}
+
+h1 { font-size: 28px; font-weight: 700; margin: 0 0 4px 0; color: var(--strong); }
+h1 + p { color: var(--accent); font-weight: 700; margin: 0 0 4px 0; }
+
+h2 {
+  font-size: 15px; font-weight: 700; color: var(--accent);
+  margin: 32px 0 12px 0; padding-bottom: 6px; border-bottom: 1px solid var(--bg-rule);
+}
+
+h3 { font-size: 14px; font-weight: 700; margin: 14px 0 2px 0; color: var(--strong); }
+
+p { margin: 6px 0; }
+a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+a:hover { color: var(--accent-soft); border-bottom-color: var(--accent-soft); border-bottom-style: solid; }
+strong { font-weight: 700; color: var(--strong); }
+em { color: var(--muted); font-style: italic; }
+hr { border: none; border-top: 1px solid var(--bg-rule); margin: 24px 0; }
+
+blockquote {
+  border-left: 2px solid var(--accent); margin: 10px 0; padding-left: 14px;
+  color: var(--muted); font-size: 13px;
+}
+
+ul { margin: 6px 0; padding-left: 22px; }
+li { margin: 3px 0; }
+li::marker { color: var(--accent); }

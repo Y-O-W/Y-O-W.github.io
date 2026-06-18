@@ -1,0 +1,63 @@
+name: Build and deploy CV
+
+# Option B: auto-render on push and publish to GitHub Pages.
+# Until you enable this, the committed index.html is what gets served (Option A).
+# To use it: in repo Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # WeasyPrint native dependencies
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 libffi-dev
+
+      - name: Install Python packages
+        run: pip install weasyprint markdown
+
+      - name: Render CV
+        run: |
+          python3 render_cv.py yw_cv_full-stack-developer.md
+          cp yw_cv_full-stack-developer.html index.html
+
+      - name: Prepare site directory
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp yw_cv_full-stack-developer.pdf _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,58 @@
+/* pdf-inter-compact.css — YOWfactor-branded single-page A4 variant.
+   Same palette as pdf-inter.css, tightened spacing to fit one page. */
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/inter-latin-400-normal.woff2') format('woff2');
+  font-weight: 400; font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/inter-latin-400-italic.woff2') format('woff2');
+  font-weight: 400; font-style: italic;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/inter-latin-600-normal.woff2') format('woff2');
+  font-weight: 600; font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/inter-latin-700-normal.woff2') format('woff2');
+  font-weight: 700; font-style: normal;
+}
+
+@page { size: A4; margin: 12mm 14mm; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 9.2pt;
+  line-height: 1.25;
+  color: #121212;
+  max-width: 100%;
+}
+
+h1 { font-size: 18pt; font-weight: 700; margin: 0 0 1pt 0; letter-spacing: -0.4pt; color: #121212; }
+h1 + p { font-size: 9.5pt; font-weight: 600; color: #255968; margin: 0 0 1pt 0; }
+
+h2 {
+  font-size: 9.5pt; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.5pt; color: #255968; margin: 7pt 0 3pt 0;
+  padding-bottom: 2pt; border-bottom: 1.5pt solid #255968;
+}
+
+h3 { font-size: 9.3pt; font-weight: 600; margin: 5pt 0 1pt 0; color: #121212; }
+
+p { margin: 2pt 0; }
+a { color: #FF552E; text-decoration: none; }
+strong { font-weight: 600; color: #121212; }
+em { color: #748E94; font-style: italic; }
+hr { display: none; }
+
+blockquote {
+  border-left: 2pt solid #FFAA96; margin: 4pt 0; padding-left: 6pt;
+  color: #748E94; font-size: 8.5pt;
+}
+
+ul { margin: 2pt 0; padding-left: 14pt; }
+li { margin: 1pt 0; }
+li::marker { color: #FF552E; }
