@@ -30,7 +30,6 @@ Edit the markdown, re-render, and push:
 ```bash
 source .venv/bin/activate
 python3 render_cv.py yw_cv_full-stack-developer.md   # add --compact for a single-page A4 PDF
-cp yw_cv_full-stack-developer.html index.html
 git add -A && git commit -m "Update CV" && git push
 ```
 

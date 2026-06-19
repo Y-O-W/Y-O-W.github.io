@@ -62,14 +62,15 @@ def render(md_path, compact=False):
         web_css = web_css.replace(
             f"url('fonts/{fname}')",
             f"url(data:font/woff2;base64,{b64})")
+    html_out = os.path.join(os.path.dirname(md_path) or ".", "index.html")
     full_html = (f"<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>"
                  f"<meta name='viewport' content='width=device-width, initial-scale=1'>"
                  f"<title>{os.path.basename(base)}</title><style>{web_css}</style></head>"
                  f"<body>{html_body}</body></html>")
-    with open(f"{base}.html", "w", encoding="utf-8") as f:
+    with open(html_out, "w", encoding="utf-8") as f:
         f.write(full_html)
 
-    print(f"Rendered {base}.pdf and {base}.html")
+    print(f"Rendered {base}.pdf and {html_out}")
 
 
 if __name__ == "__main__":
