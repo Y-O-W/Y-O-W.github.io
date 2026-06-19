@@ -2,39 +2,51 @@
 
 My CV, served at **https://y-o-w.github.io**.
 
-- `yw_cv_full-stack-developer.md` — the content (source of truth)
-- `render_cv.py` + `*.css` + `fonts/` — renderer that turns the markdown into a
-  styled HTML page and PDF
-- `index.html` — the deployed page (HTML version, JetBrains Mono, self-contained)
-- `yw_cv_full-stack-developer.pdf` — downloadable PDF (Inter, A4)
+| File | Purpose |
+|------|---------|
+| `yw_cv_full-stack-developer.md` | CV content (source of truth) |
+| `render_cv.py` | Renders the markdown into a styled HTML page and PDF |
+| `pdf-inter.css` / `pdf-inter-compact.css` | PDF styling (Inter, A4) |
+| `web-jetbrains.css` | HTML styling (JetBrains Mono, dark theme) |
+| `fonts/` | Bundled Inter and JetBrains Mono `.woff2` files |
+| `index.html` | Deployed page — self-contained, fonts embedded as base64 |
+| `yw_cv_full-stack-developer.pdf` | Downloadable PDF |
+
+## Local setup
+
+Requires Python 3 and a few system libraries for PDF rendering:
+
+```bash
+brew install pango gdk-pixbuf libffi
+python3 -m venv .venv
+source .venv/bin/activate
+pip install weasyprint markdown
+```
 
 ## Updating the CV
 
 Edit the markdown, re-render, and push:
 
 ```bash
-python3 render_cv.py yw_cv_full-stack-developer.md   # add --compact for 1-page PDF
+source .venv/bin/activate
+python3 render_cv.py yw_cv_full-stack-developer.md   # add --compact for a single-page A4 PDF
 cp yw_cv_full-stack-developer.html index.html
 git add -A && git commit -m "Update CV" && git push
 ```
 
-GitHub Pages serves the committed `index.html` (this is "Option A").
+A `{{DATE}}` token in the markdown is replaced with today's date (M/D/YYYY) at render time.
 
-## Optional: auto-build (Option B)
+GitHub Pages serves the committed `index.html`.
 
-`.github/workflows/deploy.yml` renders the CV on every push and deploys it, so
-you only need to commit the markdown. To switch to it: repo **Settings → Pages →
-Source → GitHub Actions**. After that you can stop committing `index.html`.
+## Optional: CI auto-build
 
-## First-time Pages setup
+`.github/workflows/deploy.yml` renders the CV on every push and deploys via GitHub Actions. To enable:
 
-Settings → Pages → Build and deployment → Source: **Deploy from a branch** →
-`main` / root. The site goes live at https://y-o-w.github.io within a minute or
-two.
+1. Go to repo **Settings → Pages → Source → GitHub Actions**.
+2. Commit only the markdown — the workflow handles the rest.
 
-## Local dependencies
+Once enabled, you no longer need to commit `index.html` or the PDF.
 
-```bash
-brew install pango gdk-pixbuf libffi
-pip3 install weasyprint markdown
-```
+## GitHub Pages setup
+
+Settings → Pages → Build and deployment → Source: **Deploy from a branch** → `main` / root. The site goes live at https://y-o-w.github.io within a couple of minutes.

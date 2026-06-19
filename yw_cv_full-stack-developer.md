@@ -3,7 +3,7 @@
 {{DATE}}, Berlin, Germany<br>
 **Full Stack Developer** — Ruby on Rails · JavaScript · PostgreSQL<br>
 [+49 178 3584681](tel:+491783584681) · [yves@yowfactor.com](mailto:yves@yowfactor.com)<br>
-[yowfactor.com](https://yowfactor.com) · [GitHub](https://github.com/Y-O-W) · [LinkedIn](https://www.linkedin.com/in/y-o-w/)
+[Web](https://yowfactor.com) · [GitHub](https://github.com/Y-O-W) · [LinkedIn](https://www.linkedin.com/in/y-o-w/)
 
 ---
 
@@ -13,9 +13,9 @@ I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, b
 
 ## Achievement
 
-Built Content Flow in 2 weeks with my coding team at Le Wagon — a content creation app using Ruby on Rails 8 infrastructure featuring a full-fledged integration of RubyLLM.
+Built [Content Flow] (https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — a content creation app using Ruby on Rails 8 infrastructure featuring a full-fledged integration of RubyLLM.
 
-Built a dedicated KVM-over-IP network across two broadcast production sites, merging broadcast and network infrastructure.
+Built a dedicated KVM-over-IP network for the [rbb] (https://www.rbb24.de/) across two broadcast production sites in Berlin and Postdam, merging broadcast and network infrastructure.
 
 ---
 
@@ -46,7 +46,7 @@ Relaunched Francotyp-Postalia's website successfully within 3 months.
 
 ## Experience
 
-**Technical Consultant & Managing Director** — YOWfactor, Berlin · *Since 2021*<br>
+**Technical Consultant** — YOWfactor, Berlin · *Since 2021*<br>
 Plan and deliver digital projects for SMBs and start-ups: digital process improvement, business-model renewal, and technology selection. Increasingly hands-on with implementation.
 
 **Technical Project Manager** — Rundfunk Berlin-Brandenburg (rbb), Berlin · *2023 – 2025*<br>
@@ -75,7 +75,7 @@ Top 15% of class. (EQF Level 7)
 
 ## Skill
 
-**Language** — German (native) · English (C2) · French (B2)<br>
 **Method** — Agile/Scrum/Hybrid, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic
+**Language** — German (native) · English (C2) · French (B2)<br>
