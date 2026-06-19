@@ -24,7 +24,7 @@ Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) acros
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
 **Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3; learning React + TypeScript<br>
 **Tooling** — Git/GitHub, VS Code, Heroku, Figma, Devise, Tailwind CSS<br>
-**Practice** — Responsive Design, MVC, Git Workflow, Pair Programming, Spec-Driven Development
+**Practice** — Responsive Design, MVC, Git Workflow, Pair Programming, Spec-Driven Development (OpenSpec + Claude Code)
 
 ---
 
