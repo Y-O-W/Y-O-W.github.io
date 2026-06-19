@@ -1,5 +1,7 @@
 # Y-O-W.github.io
 
+A small project to make applying as full stack developer a bit easier and developer friendly.
+
 My CV, served at **https://y-o-w.github.io**.
 
 | File | Purpose |
