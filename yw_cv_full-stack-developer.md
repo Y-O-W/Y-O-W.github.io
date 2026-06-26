@@ -16,7 +16,7 @@ I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, b
 
 Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — a content creation app using Ruby on Rails 8 infrastructure featuring a full-fledged integration of RubyLLM.
 
-Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Postdam, merging broadcast and network infrastructure.
+Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam, merging broadcast and network infrastructure.
 
 ---
 

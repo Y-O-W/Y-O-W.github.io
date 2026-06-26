@@ -8,8 +8,8 @@
 
 ## About
 
-Technically skilled project manager working at the intersection of digitalization, innovation, and technology. I combine business and technological expertise with proven leadership to lead interdisciplinary teams and deliver complex digital projects end to end.<br>
-**Core Strength** - project and stakeholder management, customer acquisition and retention, translating digital strategy into measurable business results.
+**Technical Consultant** working at the intersection of digitalization, innovation, and technology. I combine business and technological expertise with proven leadership to lead interdisciplinary teams and deliver complex digital projects end to end.<br>
+**Core Strength** — project and stakeholder management, customer acquisition and retention, translating digital strategy into measurable business results.
 
 ---
 
@@ -17,7 +17,7 @@ Technically skilled project manager working at the intersection of digitalizatio
 
 Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — a content creation app using Ruby on Rails 8 infrastructure featuring a full-fledged integration of RubyLLM.
 
-Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Postdam, merging broadcast and network infrastructure.
+Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam, merging broadcast and network infrastructure.
 
 ---
 
@@ -51,7 +51,7 @@ Software developer curriculum — built my own web applications.
 **Project Management** — Rundfunk Berlin-Brandenburg · *2023–2024*<br>
 Project Management for Managers; Effective Time Management; Hybrid Project Management.
 
-**Business Model Generation & Value Proposition Design** — Strategyzer AG Berlin · *03.2016*<br>
+**Business Model Generation & Value Proposition Design** — Strategyzer AG Berlin · *2016*<br>
 Master Class with Alexander Osterwalder and Yves Pigneur.
 
 **Web Development** — CBM Bremen · *2014*<br>
@@ -66,7 +66,7 @@ Top 15% of class. (EQF Level 7)
 
 **Method** — Agile/Scrum/Hybrid, Business Model Canvas, Design Sprint<br>
 **Project Management** — Google Workspace, Microsoft 365, Teams, Slack, Notion, Jira, Confluence<br>
-**Marketing** - HubSpot, Salesforce · Mailchimp, Mailjet · Google Tag Manager, Google Analytics · Google Advertising, Meta Advertising<br>
+**Marketing** — HubSpot, Salesforce · Mailchimp, Mailjet · Google Tag Manager, Google Analytics · Google Advertising, Meta Advertising<br>
 **Development** — VS Code, Claude Code, GitHub, Figma<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
 **Language** — German (native) · English (C2) · French (B2)<br>

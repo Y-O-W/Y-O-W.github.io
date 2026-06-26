@@ -31,9 +31,17 @@ Edit the markdown, re-render, and push:
 
 ```bash
 source .venv/bin/activate
-python3 render_cv.py --compact yw_cv_full-stack-developer.md # add --compact for a single-page A4 PDF
+
+# Full Stack CV — renders index.html + PDF
+python3 render_cv.py both yw_cv_full-stack-developer.md --compact
+
+# Technical Consultant CV — PDF only
+python3 render_cv.py pdf yw_cv_technical-consultant.md --compact
+
 git add -A && git commit -m "Update CV" && git push
 ```
+
+Commands: `pdf` · `html` · `both`. Add `--compact` for the tightened single-page A4 PDF layout.
 
 To avoid activating the venv manually each time, add an alias to `~/.zshrc`:
 
@@ -41,7 +49,7 @@ To avoid activating the venv manually each time, add an alias to `~/.zshrc`:
 alias render-cv='cd /Users/yowfactor/Developer/personal/Y-O-W.github.io && source .venv/bin/activate && python3 render_cv.py'
 ```
 
-Then reload with `source ~/.zshrc` and use `render-cv --compact yw_cv_full-stack-developer.md`.
+Then reload with `source ~/.zshrc` and use e.g. `render-cv both yw_cv_full-stack-developer.md --compact`.
 
 A `{{DATE}}` token in the markdown is replaced with today's date (M/D/YYYY) at render time.
 
