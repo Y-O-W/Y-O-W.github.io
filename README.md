@@ -35,6 +35,14 @@ python3 render_cv.py --compact yw_cv_full-stack-developer.md # add --compact for
 git add -A && git commit -m "Update CV" && git push
 ```
 
+To avoid activating the venv manually each time, add an alias to `~/.zshrc`:
+
+```bash
+alias render-cv='cd /Users/yowfactor/Developer/personal/Y-O-W.github.io && source .venv/bin/activate && python3 render_cv.py'
+```
+
+Then reload with `source ~/.zshrc` and use `render-cv --compact yw_cv_full-stack-developer.md`.
+
 A `{{DATE}}` token in the markdown is replaced with today's date (M/D/YYYY) at render time.
 
 GitHub Pages serves the committed `index.html`.
