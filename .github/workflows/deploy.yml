@@ -38,15 +38,14 @@ jobs:
         run: pip install weasyprint markdown
 
       - name: Render CV
-        run: |
-          python3 render_cv.py yw_cv_full-stack-developer.md
-          cp yw_cv_full-stack-developer.html index.html
+        run: python3 render_cv.py both yw_cv_full-stack-developer.md --compact
 
       - name: Prepare site directory
         run: |
           mkdir -p _site
           cp index.html _site/
           cp yw_cv_full-stack-developer.pdf _site/
+          cp yw_cv_technical-consultant.pdf _site/
 
       - uses: actions/upload-pages-artifact@v3
         with:
