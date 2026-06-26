@@ -2,14 +2,15 @@
 
 {{DATE}}, Berlin, Germany<br>
 **Full Stack Developer** — Ruby on Rails · JavaScript · PostgreSQL<br>
-[+49 178 3584681](tel:+491783584681) · [yves@yowfactor.com](mailto:yves@yowfactor.com)<br>
-[Web](https://yowfactor.com) · [GitHub](https://github.com/Y-O-W) · [LinkedIn](https://www.linkedin.com/in/y-o-w/)
+[+49 178 3584681](tel:+491783584681) · [yves@yowfactor.com](mailto:yves@yowfactor.com) · [Web](https://yowfactor.com) · [GitHub](https://github.com/Y-O-W) · [LinkedIn](https://www.linkedin.com/in/y-o-w/)
 
 ---
 
 ## About
 
 I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, backed by over 10 years of leading digital projects end to end. I bridge engineering and business — I write the code and understand why it matters to the people paying for it. Recently completed Le Wagon's intensive bootcamp and now in a focused build-and-study phase deepening Rails, React, and TypeScript.
+
+---
 
 ## Achievement
 
@@ -77,5 +78,5 @@ Top 15% of class. (EQF Level 7)
 
 **Method** — Agile/Scrum/Hybrid, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
-**Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic
+**Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
 **Language** — German (native) · English (C2) · French (B2)<br>
