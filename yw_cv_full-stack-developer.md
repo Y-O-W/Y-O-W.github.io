@@ -8,13 +8,13 @@
 
 ## About
 
-I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, backed by over 10 years of leading digital projects end to end. I bridge engineering and business — I write the code and understand why it matters to the people paying for it. Recently completed Le Wagon's intensive bootcamp and now in a focused build-and-study phase deepening Rails, React, and TypeScript.
+I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, backed by over 10 years of leading digital projects end to end. I bridge engineering and business — I write the code and understand why it matters to the people paying for it. Recently completed Le Wagon's intensive bootcamp and now in a focused build-and-study phase deepening Rails, React, and TypeScript, with AI-assisted, agentic workflows (Claude Code) built into how I work.
 
 ---
 
 ## Achievement
 
-Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — a content creation app using Ruby on Rails 8 infrastructure featuring a full-fledged integration of RubyLLM.
+Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — an AI-integrated content creation app on Ruby on Rails 8, featuring a full-fledged integration of RubyLLM.
 
 Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam, merging broadcast and network infrastructure.
 
@@ -23,9 +23,9 @@ Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) acros
 ## Stack
 
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
-**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3; learning React + TypeScript<br>
-**Tooling** — Git/GitHub, VS Code, Heroku, Figma, Devise, Tailwind CSS<br>
-**Practice** — Responsive Design, MVC, Git Workflow, Pair Programming, Spec-Driven Development (OpenSpec + Claude Code)
+**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS; learning React + TypeScript<br>
+**Tooling** — Git/GitHub, VS Code, Heroku, Claude Code, Figma<br>
+**Practice** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC Pattern, Git Workflow, Pair Programming<br>
 
 ---
 
@@ -76,7 +76,7 @@ Top 15% of class. (EQF Level 7)
 
 ## Skill
 
-**Method** — Agile/Scrum/Hybrid, Business Model Canvas, Design Sprint<br>
+**Method** — Agile/Scrum, cross-functional collaboration with Product & Design, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
-**Language** — German (native) · English (C2) · French (B2)<br>
+**Language** — German (native) · English (C2) · French (B2)
