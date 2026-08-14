@@ -6,7 +6,7 @@
 
 ---
 
-## About
+## YOWfactor
 
 I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, backed by over 10 years of leading digital projects end to end. I bridge engineering, product and business — I write the code and understand why it matters to the people paying for it. Recently completed Le Wagon's intensive bootcamp and now in a focused build-and-study phase deepening Rails, React, and TypeScript, with AI-assisted, agentic workflows (Claude Code) built into how I work.
 

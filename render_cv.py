@@ -5,12 +5,16 @@ Usage:
     python3 render_cv.py pdf path/to/cv.md [--compact]
     python3 render_cv.py html yw_cv_full-stack-developer.md
     python3 render_cv.py both yw_cv_full-stack-developer.md [--compact]
+    python3 render_cv.py all [--compact]
 
 - PDF uses Inter (sans-serif), single-column, ATS-friendly.
 - HTML uses JetBrains Mono (monospace), dark theme, fonts embedded as base64
   so the file is fully self-contained and portable. Always writes index.html.
 - A {{DATE}} token anywhere in the markdown is replaced with today's date
   in US format (M/D/YYYY) at render time.
+- `all` renders every CV artifact at once: PDF + HTML for
+  yw_cv_full-stack-developer.md, and PDF only for yw_cv_technical-consultant.md
+  and yw_cv_full-stack-entwickler.md.
 
 Paths are resolved relative to this script, so you can run it from anywhere.
 """
@@ -29,6 +33,13 @@ WEB_FONTS = [
     "jetbrains-mono-latin-400-normal.woff2",
     "jetbrains-mono-latin-400-italic.woff2",
     "jetbrains-mono-latin-700-normal.woff2",
+]
+
+# (markdown filename, artifacts to render) used by the `all` command.
+ALL_TARGETS = [
+    ("yw_cv_full-stack-developer.md", "both"),
+    ("yw_cv_technical-consultant.md", "pdf"),
+    ("yw_cv_full-stack-entwickler.md", "pdf"),
 ]
 
 
@@ -73,16 +84,31 @@ def render_html(md_path):
     print(f"Rendered {html_out}")
 
 
+def render_all(compact=False):
+    for fname, command in ALL_TARGETS:
+        md_path = os.path.join(HERE, fname)
+        if command in ("pdf", "both"):
+            render_pdf(md_path, compact=compact)
+        if command in ("html", "both"):
+            render_html(md_path)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Render markdown CVs to PDF and/or HTML.")
-    ap.add_argument("command", choices=["pdf", "html", "both"],
-                    help="what to render: pdf, html, or both")
-    ap.add_argument("file", help="markdown file to render")
+    ap.add_argument("command", choices=["pdf", "html", "both", "all"],
+                    help="what to render: pdf, html, both, or all (every CV artifact)")
+    ap.add_argument("file", nargs="?",
+                    help="markdown file to render (omit for 'all')")
     ap.add_argument("--compact", action="store_true",
-                    help="use the tightened single-page A4 PDF layout (pdf/both only)")
+                    help="use the tightened single-page A4 PDF layout (pdf/both/all only)")
     args = ap.parse_args()
 
-    if args.command in ("pdf", "both"):
-        render_pdf(args.file, compact=args.compact)
-    if args.command in ("html", "both"):
-        render_html(args.file)
+    if args.command == "all":
+        render_all(compact=args.compact)
+    else:
+        if not args.file:
+            ap.error("the 'file' argument is required for pdf/html/both")
+        if args.command in ("pdf", "both"):
+            render_pdf(args.file, compact=args.compact)
+        if args.command in ("html", "both"):
+            render_html(args.file)

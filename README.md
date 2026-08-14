@@ -7,12 +7,16 @@ My CV, served at **https://y-o-w.github.io**.
 | File | Purpose |
 |------|---------|
 | `yw_cv_full-stack-developer.md` | CV content (source of truth) |
-| `render_cv.py` | Renders the markdown into a styled HTML page and PDF |
+| `yw_cv_technical-consultant.md` | Technical Consultant CV content |
+| `yw_cv_full-stack-entwickler.md` | Full Stack CV content, German |
+| `render_cv.py` | Renders the markdown into a styled HTML page and/or PDF |
 | `pdf-inter.css` / `pdf-inter-compact.css` | PDF styling (Inter, A4) |
 | `web-jetbrains.css` | HTML styling (JetBrains Mono, dark theme) |
 | `fonts/` | Bundled Inter and JetBrains Mono `.woff2` files |
 | `index.html` | Deployed page — self-contained, fonts embedded as base64 |
 | `yw_cv_full-stack-developer.pdf` | Downloadable PDF |
+| `yw_cv_technical-consultant.pdf` | Downloadable PDF |
+| `yw_cv_full-stack-entwickler.pdf` | Downloadable PDF, German |
 
 ## Local setup
 
@@ -38,10 +42,16 @@ python3 render_cv.py both yw_cv_full-stack-developer.md --compact
 # Technical Consultant CV — PDF only
 python3 render_cv.py pdf yw_cv_technical-consultant.md --compact
 
+# Full Stack CV, German — PDF only
+python3 render_cv.py pdf yw_cv_full-stack-entwickler.md --compact
+
+# Or render every CV artifact above in one go
+python3 render_cv.py all --compact
+
 git add -A && git commit -m "Update CV" && git push
 ```
 
-Commands: `pdf` · `html` · `both`. Add `--compact` for the tightened single-page A4 PDF layout.
+Commands: `pdf` · `html` · `both` · `all`. Add `--compact` for the tightened single-page A4 PDF layout. `all` renders every CV listed above (no `file` argument needed) and is the recommended way to regenerate everything at once.
 
 To avoid activating the venv manually each time, add an alias to `~/.zshrc`:
 
