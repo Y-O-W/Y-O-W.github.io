@@ -6,13 +6,13 @@
 
 ---
 
-## YOWfactor
+## Über Mich
 
-Ich bin Full-Stack-Entwickler und entwickle mit Ruby on Rails und modernem JavaScript — mit über 10 Jahren Erfahrung in der ganzheitlichen Leitung digitaler Projekte. Ich verbinde Engineering, Product und Business — ich schreibe den Code und verstehe, warum er für die Auftraggeber wichtig ist. Kürzlich habe ich das intensive Bootcamp von Le Wagon abgeschlossen und vertiefe derzeit gezielt Rails, React und TypeScript — mit KI-gestützten, agentischen Workflows (Claude Code) als festem Bestandteil meiner Arbeitsweise.
+Ich bin Full-Stack-Entwickler und entwickle mit Ruby on Rails und modernem JavaScript — mit über 10 Jahren Erfahrung in der ganzheitlichen Leitung digitaler Projekte. Ich verbinde Engineering, Product und Business — ich schreibe den Code und verstehe, warum er für die Auftraggeber wichtig ist. Kürzlich habe ich das intensive Bootcamp von Le Wagon abgeschlossen und vertiefe derzeit gezielt Rails, Next.js und TypeScript — mit KI-gestützten, agentischen Workflows (Claude Code) als festem Bestandteil meiner Arbeitsweise. Zwei Bootcamps und ein Jahrzehnt voller dynamischer Digitalprojekte haben mich gelehrt, mich schnell in neue Technologie-Stacks einzuarbeiten und Ergebnisse zu liefern.
 
 ---
 
-## Leistung
+## Erfolg
 
 [Content Flow](https://www.content-flow.xyz/) in 2 Wochen mit meinem Coding-Team bei Le Wagon gebaut — eine KI-integrierte Content-Creation-App auf Ruby on Rails 8 mit vollwertiger RubyLLM-Integration.
 
@@ -23,13 +23,13 @@ Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über
 ## Stack
 
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
-**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS; React + TypeScript in Vertiefung<br>
+**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS; Next.js + TypeScript in Vertiefung<br>
 **Tooling** — Git/GitHub, VS Code, Heroku, Claude Code, Figma<br>
 **Praxis** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC-Pattern, Git-Workflow, Pair Programming
 
 ---
 
-## Projekte
+## Projekt
 
 **Mu Protocol** — [Web](https://muprotocol.io/) · [GitHub](https://github.com/muprotocol)<br>
 Bei Mu Protocol war ich verantwortlich für die Leitung des Entwicklerteams und den Aufbau unseres MVP.
@@ -58,7 +58,7 @@ Account-Director- und Team-Lead-Rollen (P.E.R. Agency, ACID21, spacedealer). Tea
 
 ---
 
-## Bildung
+## Ausbildung
 
 **AI Software Development** — Le Wagon Berlin · *2026*<br>
 Full-Stack-Web- und KI-Anwendungsentwicklung.
@@ -76,7 +76,7 @@ Top 15 % des Jahrgangs. (EQF-Niveau 7)
 
 ## Kompetenz
 
-**Methodik** — Agile/Scrum, funktionsübergreifende Zusammenarbeit mit Product & Design, Business Model Canvas, Design Sprint<br>
+**Methodik** — Agile/Scrum/Waterfall, funktionsübergreifende Zusammenarbeit mit Product & Design, Stakeholder-Kommunikation & technische Übersetzung, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
-**Sprachen** — Deutsch (Muttersprache) · Englisch (C2) · Französisch (B2)
+**Sprache** — Deutsch (Muttersprache) · Englisch (C2) · Französisch (B2)

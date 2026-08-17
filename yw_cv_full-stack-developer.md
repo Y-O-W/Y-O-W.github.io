@@ -6,9 +6,9 @@
 
 ---
 
-## YOWfactor
+## About Me
 
-I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, backed by over 10 years of leading digital projects end to end. I bridge engineering, product and business — I write the code and understand why it matters to the people paying for it. Recently completed Le Wagon's intensive bootcamp and now in a focused build-and-study phase deepening Rails, React, and TypeScript, with AI-assisted, agentic workflows (Claude Code) built into how I work.
+I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, backed by over 10 years of leading digital projects end to end. I bridge engineering, product and business — I write the code, talk directly to the people using it, and translate technical trade-offs for non-technical stakeholders. Recently completed Le Wagon's intensive bootcamp and now in a focused build-and-study phase deepening Rails, Next.js, and TypeScript, with AI-assisted, agentic workflows (Claude Code) built into how I work. Two bootcamps and a decade of fast-moving digital projects taught me to pick up new stacks quickly and ship.
 
 ---
 
@@ -23,9 +23,9 @@ Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) acros
 ## Stack
 
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
-**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS; learning React + TypeScript<br>
+**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS; learning Next.js + TypeScript<br>
 **Tooling** — Git/GitHub, VS Code, Heroku, Claude Code, Figma<br>
-**Practice** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC Pattern, Git Workflow, Pair Programming<br>
+**Practice** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC Pattern, Git Workflow, Pair Programming
 
 ---
 
@@ -76,7 +76,7 @@ Top 15% of class. (EQF Level 7)
 
 ## Skill
 
-**Method** — Agile/Scrum, cross-functional collaboration with Product & Design, Business Model Canvas, Design Sprint<br>
+**Method** — Agile/Scrum/Waterfall, cross-functional collaboration with product & design, stakeholder communication & technical translation, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
 **Language** — German (native) · English (C2) · French (B2)
