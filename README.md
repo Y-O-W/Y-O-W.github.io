@@ -10,6 +10,7 @@ My CV, served at **https://y-o-w.github.io**.
 | `yw_cv_technical-consultant.md` | Technical Consultant CV content |
 | `yw_cv_full-stack-entwickler.md` | Full Stack CV content, German |
 | `render_cv.py` | Renders the markdown into a styled HTML page and/or PDF |
+| `requirements.txt` | Pinned Python dependencies (`markdown`, `weasyprint`) |
 | `pdf-inter.css` / `pdf-inter-compact.css` | PDF styling (Inter, A4) |
 | `web-jetbrains.css` | HTML styling (JetBrains Mono, dark theme) |
 | `fonts/` | Bundled Inter and JetBrains Mono `.woff2` files |
@@ -26,7 +27,7 @@ Requires Python 3 and a few system libraries for PDF rendering:
 brew install pango gdk-pixbuf libffi
 python3 -m venv .venv
 source .venv/bin/activate
-pip install weasyprint markdown
+pip install -r requirements.txt
 ```
 
 ## Updating the CV

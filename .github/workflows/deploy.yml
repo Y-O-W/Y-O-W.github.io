@@ -22,9 +22,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -35,10 +35,10 @@ jobs:
           sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 libffi-dev
 
       - name: Install Python packages
-        run: pip install weasyprint markdown
+        run: pip install -r requirements.txt
 
       - name: Render CV
-        run: python3 render_cv.py both yw_cv_full-stack-developer.md --compact
+        run: python3 render_cv.py all --compact
 
       - name: Prepare site directory
         run: |
@@ -46,8 +46,9 @@ jobs:
           cp index.html _site/
           cp yw_cv_full-stack-developer.pdf _site/
           cp yw_cv_technical-consultant.pdf _site/
+          cp yw_cv_full-stack-entwickler.pdf _site/
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -59,4 +60,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
