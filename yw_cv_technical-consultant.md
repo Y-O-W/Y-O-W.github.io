@@ -6,16 +6,16 @@
 
 ---
 
-## About
+## About Me
 
-**Technical Consultant** delivering complex cross-team software programs with a developer's own understanding of the tools and workflow. I combine technical and business expertise with proven leadership to align interdisciplinary teams, improve delivery processes, and ship complex projects end to end.<br>
+**Technical Consultant** delivering complex cross-team software programs with a developer's own understanding of the tools and workflows. I combine technical and business expertise with proven leadership to align interdisciplinary teams, improve delivery processes, and ship complex projects end to end.<br>
 **Core Strength** — project, program, and stakeholder management · cross-team collaboration and facilitation · translating strategy into measurable delivery outcomes.
 
 ---
 
 ## Achievement
 
-Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — a content creation app using Ruby on Rails 8 infrastructure featuring a full-fledged integration of RubyLLM.
+Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — an AI-integrated content creation app on Ruby on Rails 8, featuring a full-fledged integration of RubyLLM.
 
 Delivered a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam — a complex hardware + software + network program spanning planning, vendor coordination, risk mitigation, and rollout, merging broadcast and IT infrastructure end to end.
 
@@ -66,6 +66,6 @@ Top 15% of class. (EQF Level 7)
 
 **Methodology** — Agile/Scrum/Hybrid, SDLC, Spec-Driven Development (OpenSpec + Claude Code), Business Model Canvas, Design Sprint<br>
 **Project Management** — Jira, Confluence, Notion, Slack, Teams, Google Workspace, Microsoft 365<br>
-**Technical** — Ruby on Rails, PostgreSQL, JavaScript, Git/GitHub · VS Code, Heroku, Figma · React + TypeScript (learning)<br>
+**Technical** — Ruby on Rails, PostgreSQL, JavaScript, Git/GitHub · VS Code, Heroku, Figma · Next.js + TypeScript (learning)<br>
 **Marketing & Commerce** — HubSpot, Salesforce, Google/Meta Ads · Shopify, Shopware · WordPress, Contentful, Prismic<br>
-**Language** — German (native) · English (C2) · French (B2)<br>
+**Language** — German (native) · English (C2) · French (B2)

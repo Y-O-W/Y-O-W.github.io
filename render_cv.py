@@ -13,8 +13,8 @@ Usage:
 - A {{DATE}} token anywhere in the markdown is replaced with today's date
   in US format (M/D/YYYY) at render time.
 - `all` renders every CV artifact at once: PDF + HTML for
-  yw_cv_full-stack-developer.md, and PDF only for yw_cv_technical-consultant.md
-  and yw_cv_full-stack-entwickler.md.
+  yw_cv_full-stack-developer.md, and PDF only for yw_cv_technical-consultant.md,
+  yw_cv_full-stack-entwickler.md, and yw_cv_digitalisierungs-berater.md.
 
 Paths are resolved relative to this script, so you can run it from anywhere.
 """
@@ -40,6 +40,7 @@ ALL_TARGETS = [
     ("yw_cv_full-stack-developer.md", "both"),
     ("yw_cv_technical-consultant.md", "pdf"),
     ("yw_cv_full-stack-entwickler.md", "pdf"),
+    ("yw_cv_digitalisierungs-berater.md", "pdf"),
 ]
 
 

@@ -16,7 +16,7 @@ I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, b
 
 Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — an AI-integrated content creation app on Ruby on Rails 8, featuring a full-fledged integration of RubyLLM.
 
-Built a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam, merging broadcast and network infrastructure.
+Delivered a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam — a complex hardware + software + network program spanning planning, vendor coordination, risk mitigation, and rollout, merging broadcast and IT infrastructure end to end.
 
 ---
 
@@ -76,7 +76,7 @@ Top 15% of class. (EQF Level 7)
 
 ## Skill
 
-**Method** — Agile/Scrum/Waterfall, cross-functional collaboration with product & design, stakeholder communication & technical translation, Business Model Canvas, Design Sprint<br>
+**Method** — Agile/Scrum/Hybrid, cross-functional collaboration with product & design, stakeholder communication & technical translation, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
 **Language** — German (native) · English (C2) · French (B2)

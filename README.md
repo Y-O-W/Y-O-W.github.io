@@ -9,6 +9,7 @@ My CV, served at **https://y-o-w.github.io**.
 | `yw_cv_full-stack-developer.md` | CV content (source of truth) |
 | `yw_cv_technical-consultant.md` | Technical Consultant CV content |
 | `yw_cv_full-stack-entwickler.md` | Full Stack CV content, German |
+| `yw_cv_digitalisierungs-berater.md` | Technical Consultant CV content, German |
 | `render_cv.py` | Renders the markdown into a styled HTML page and/or PDF |
 | `requirements.txt` | Pinned Python dependencies (`markdown`, `weasyprint`) |
 | `pdf-inter.css` / `pdf-inter-compact.css` | PDF styling (Inter, A4) |
@@ -18,6 +19,7 @@ My CV, served at **https://y-o-w.github.io**.
 | `yw_cv_full-stack-developer.pdf` | Downloadable PDF |
 | `yw_cv_technical-consultant.pdf` | Downloadable PDF |
 | `yw_cv_full-stack-entwickler.pdf` | Downloadable PDF, German |
+| `yw_cv_digitalisierungs-berater.pdf` | Downloadable PDF, German |
 
 ## Local setup
 
@@ -45,6 +47,9 @@ python3 render_cv.py pdf yw_cv_technical-consultant.md --compact
 
 # Full Stack CV, German — PDF only
 python3 render_cv.py pdf yw_cv_full-stack-entwickler.md --compact
+
+# Technical Consultant CV, German — PDF only
+python3 render_cv.py pdf yw_cv_digitalisierungs-berater.md --compact
 
 # Or render every CV artifact above in one go
 python3 render_cv.py all --compact

@@ -12,11 +12,11 @@ Ich bin Full-Stack-Entwickler und entwickle mit Ruby on Rails und modernem JavaS
 
 ---
 
-## Erfolg
+## Erfolge
 
 [Content Flow](https://www.content-flow.xyz/) in 2 Wochen mit meinem Coding-Team bei Le Wagon gebaut — eine KI-integrierte Content-Creation-App auf Ruby on Rails 8 mit vollwertiger RubyLLM-Integration.
 
-Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über zwei Sendestandorte in Berlin und Potsdam aufgebaut, das Broadcast- und Netzwerkinfrastruktur zusammenführt.
+Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über zwei Sendestandorte in Berlin und Potsdam realisiert — ein komplexes Hardware-, Software- und Netzwerkprogramm mit Planung, Koordination mit Dienstleistern, Risikominimierung und Rollout, das Broadcast- und IT-Infrastruktur end-to-end zusammenführt.
 
 ---
 
@@ -29,7 +29,7 @@ Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über
 
 ---
 
-## Projekt
+## Projekte
 
 **Mu Protocol** — [Web](https://muprotocol.io/) · [GitHub](https://github.com/muprotocol)<br>
 Bei Mu Protocol war ich verantwortlich für die Leitung des Entwicklerteams und den Aufbau unseres MVP.
@@ -74,9 +74,9 @@ Top 15 % des Jahrgangs. (EQF-Niveau 7)
 
 ---
 
-## Kompetenz
+## Kompetenzen
 
-**Methodik** — Agile/Scrum/Waterfall, funktionsübergreifende Zusammenarbeit mit Product & Design, Stakeholder-Kommunikation & technische Übersetzung, Business Model Canvas, Design Sprint<br>
+**Methodik** — Agile/Scrum/Hybrid, funktionsübergreifende Zusammenarbeit mit Product & Design, Stakeholder-Kommunikation & technische Übersetzung, Business Model Canvas, Design Sprint<br>
 **Software** — VS Code, Claude Code, Git/GitHub, Figma, Jira, Notion<br>
 **Commerce & CMS** — Shopify, Shopware, OXID eShop · WordPress, Contentful, Prismic<br>
 **Sprache** — Deutsch (Muttersprache) · Englisch (C2) · Französisch (B2)
