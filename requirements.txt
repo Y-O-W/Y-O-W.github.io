@@ -1,2 +1,3 @@
-markdown==3.10.3
-weasyprint==69.0
+# CV rendering dependencies
+markdown>=3.10.3,<4.0
+weasyprint>=69.0,<70.0

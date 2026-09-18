@@ -1,4 +1,25 @@
 # intermediate render output (index.html is the served copy)
-yw_cv_full-stack-developer.html
+yw_cv_*.html
 __pycache__/
 .venv/
+
+# Python
+*.py[cod]
+*$py.class
+.env
+.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
