@@ -23,7 +23,7 @@ Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über
 ## Stack
 
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
-**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS; Next.js + TypeScript in Vertiefung<br>
+**Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS, komponentenbasierte Frameworks<br>
 **Tooling** — Git/GitHub, VS Code, Heroku, Claude Code, Figma<br>
 **Praxis** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC-Pattern, Git-Workflow, Pair Programming
 
