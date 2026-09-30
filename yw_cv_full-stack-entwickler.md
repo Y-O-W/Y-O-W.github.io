@@ -14,7 +14,7 @@ Ich bin Full-Stack-Entwickler und entwickle mit Ruby on Rails und modernem JavaS
 
 ## Erfolge
 
-[Content Flow](https://www.content-flow.xyz/) in 2 Wochen mit meinem Coding-Team bei Le Wagon gebaut — eine KI-integrierte Content-Creation-App auf Ruby on Rails 8 mit vollwertiger RubyLLM-Integration.
+[Content Flow](https://www.content-flow.xyz/) in einem 2-wöchigen Sprint mit meinem Coding-Team bei Le Wagon gebaut — und entwickle die App inzwischen eigenständig weiter: eine KI-integrierte Content-Creation-App auf Ruby on Rails 8, erweitert um Multi-LLM-Unterstützung via RubyLLM, die Claude Console und die OpenRouter-API.
 
 Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über zwei Sendestandorte in Berlin und Potsdam realisiert — ein komplexes Hardware-, Software- und Netzwerkprogramm mit Planung, Koordination mit Dienstleistern, Risikominimierung und Rollout, das Broadcast- und IT-Infrastruktur end-to-end zusammenführt.
 
@@ -24,8 +24,9 @@ Ein dediziertes KVM-over-IP-Netzwerk für den [rbb](https://www.rbb24.de/) über
 
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
 **Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS, komponentenbasierte Frameworks<br>
-**Tooling** — Git/GitHub, VS Code, Heroku, Claude Code, Figma<br>
-**Praxis** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC-Pattern, Git-Workflow, Pair Programming
+**AI** — Claude Code, Spec-Driven Development (OpenSpec), RubyLLM, MCP, agentische/KI-gestützte Workflows<br>
+**Tooling** — Git/GitHub, VS Code, Heroku, Figma<br>
+**Praxis** — Responsive Design, MVC-Pattern, Git-Workflow, Pair Programming
 
 ---
 

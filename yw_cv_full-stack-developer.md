@@ -14,7 +14,7 @@ I am a Full Stack Developer building with Ruby on Rails and modern JavaScript, b
 
 ## Achievement
 
-Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — an AI-integrated content creation app on Ruby on Rails 8, featuring a full-fledged integration of RubyLLM.
+Built [Content Flow](https://www.content-flow.xyz/) with my coding team at Le Wagon in a 2-week sprint, and am now actively developing it solo — an AI-integrated content creation app on Ruby on Rails 8, expanded with multi-LLM support via RubyLLM, the Claude Console, and the OpenRouter API.
 
 Delivered a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam — a complex hardware + software + network program spanning planning, vendor coordination, risk mitigation, and rollout, merging broadcast and IT infrastructure end to end.
 
@@ -24,8 +24,9 @@ Delivered a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) a
 
 **Backend** — Ruby on Rails 8, PostgreSQL, REST APIs<br>
 **Frontend** — JavaScript (ES6+), Hotwire (Turbo/Stimulus), HTML5, CSS3/Tailwind CSS, component-based frameworks<br>
-**Tooling** — Git/GitHub, VS Code, Heroku, Claude Code, Figma<br>
-**Practice** — Spec-Driven Development (OpenSpec + Claude Code), Responsive Design, MVC Pattern, Git Workflow, Pair Programming
+**AI** — Claude Code, Spec-Driven Development (OpenSpec), RubyLLM, MCP, agentic/AI-assisted workflows<br>
+**Tooling** — Git/GitHub, VS Code, Heroku, Figma<br>
+**Practice** — Responsive Design, MVC Pattern, Git Workflow, Pair Programming
 
 ---
 

@@ -15,7 +15,7 @@
 
 ## Achievement
 
-Built [Content Flow](https://www.content-flow.xyz/) in 2 weeks with my coding team at Le Wagon — an AI-integrated content creation app on Ruby on Rails 8, featuring a full-fledged integration of RubyLLM.
+Built [Content Flow](https://www.content-flow.xyz/) with my coding team at Le Wagon in a 2-week sprint, and am now actively developing it solo — an AI-integrated content creation app on Ruby on Rails 8, expanded with multi-LLM support via RubyLLM, the Claude Console, and the OpenRouter API.
 
 Delivered a dedicated KVM-over-IP network for the [rbb](https://www.rbb24.de/) across two broadcast production sites in Berlin and Potsdam — a complex hardware + software + network program spanning planning, vendor coordination, risk mitigation, and rollout, merging broadcast and IT infrastructure end to end.
 
@@ -64,7 +64,8 @@ Top 15% of class. (EQF Level 7)
 
 ## Skill
 
-**Methodology** — Agile/Scrum/Hybrid, SDLC, Spec-Driven Development (OpenSpec + Claude Code), Business Model Canvas, Design Sprint<br>
+**Methodology** — Agile/Scrum/Hybrid, SDLC, Business Model Canvas, Design Sprint<br>
+**AI** — Claude Code, Spec-Driven Development (OpenSpec), RubyLLM, MCP, agentic/AI-assisted workflows<br>
 **Project Management** — Jira, Confluence, Notion, Slack, Teams, Google Workspace, Microsoft 365<br>
 **Technical** — Ruby on Rails, PostgreSQL, JavaScript, Git/GitHub · VS Code, Heroku, Figma · Next.js + TypeScript (learning)<br>
 **Marketing & Commerce** — HubSpot, Salesforce, Google/Meta Ads · Shopify, Shopware · WordPress, Contentful, Prismic<br>
